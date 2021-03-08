@@ -1,0 +1,24 @@
+user 1 : elie@hotmail.com
+password : Elie123)
+
+
+user 2 : jason@hotmail.com
+password : Jason123)
+
+
+user 3: mr.robot@live.com
+      password : Elliot123)
+
+--------------------------------------------------------------------
+
+admin 1 : elieaoun@hotmail.com
+        password : Aoun123)
+
+
+admin 2 : jasonabisaad@hotmail.com
+        password : Saad123)
+
+
+
+
+

@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../images/registerbg.jpg");
+  background-size: cover;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+.container {
+  width: 70%;
+  height: 500px;
+  background: transparent;
+  margin-top: 60px;
+  margin-left: 200px;
+  border: 2px solid #818181;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.container .left {
+  float: left;
+  width: 50%;
+  height: 500px;
+  background-size: cover;
+  background: #04192a;
+  box-sizing: border-box;
+}
+
+.container .left h2 {
+  color: white;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  letter-spacing: 5px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px white;
+  }
+  to {
+    text-shadow: 0 0 30px #f0911c, 0 0 30px #f18500;
+  }
+}
+
+.btcImage {
+  block-size: 70%;
+  margin-left: 50px;
+  margin-top: 60px;
+  animation: rotation 3s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+  }
+}
+.btcImage::content {
+  transform: rotateY(360deg);
+}
+
+.container .right {
+  float: right;
+  width: 50%;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+.formBox {
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  height: 500px;
+  background: #fff;
+}
+
+.formBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #04192a;
+}
+
+.formBox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.formBox input[type="text"],
+.formBox input[type="Password"],
+.formBox input[type="email"],
+.formBox input[type="date"] {
+  border: none;
+  border-bottom: 2px solid #04192a;
+  outline: none;
+  height: 30px;
+  width: 50%;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="Password"]:focus,
+.formBox input[type="email"]:focus,
+.formBox input[type="date"]:focus {
+  border-bottom: 5px solid #f0911c;
+}
+
+.formBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-weight: bold;
+  background: #04192a;
+  border-radius: 20px 20px 20px 20px;
+  background-size: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.formBox input[type="submit"]:hover {
+  transform: scale(1, 1.1);
+}
+
+.formBox a {
+  color: #04192a;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.error_form {
+  color: red;
+  font-size: 13px;
+  font-weight: bolder;
+}

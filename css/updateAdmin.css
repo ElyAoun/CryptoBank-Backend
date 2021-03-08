@@ -1,0 +1,58 @@
+.update-form {
+  width: 300px;
+  padding: 20px;
+  margin-left: 33%;
+  background: #04192a;
+  text-align: center;
+  box-shadow: 3px 3px 10px #f0911d, -2px -2px 7px #f0911d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.update-form p {
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.update-form input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.update-form input[type="password"]:focus {
+  width: 280px;
+  border-color: #f0911d;
+}
+.update-form input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #f0911d;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.update-form input[type="submit"]:hover {
+  background: #f0911d;
+}
+.update-form span {
+  color: red;
+  font-size: 15px;
+  font-weight: bolder;
+}
